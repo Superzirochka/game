@@ -1,0 +1,47 @@
+body {
+  background-image: url(../img/post.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  /* background: linear-gradient(35deg, #ccffff, #eeaee3); */
+}
+
+h1 {
+  color: #ccffff;
+  text-shadow: 0.1em 0.05em #f8e7f569;
+}
+#pole {
+  /* background: linear-gradient(-35deg, #7476f0, #83f583); */
+  border-radius: 1%;
+  width: 70%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#pole div {
+  background-image: url(../img/bee.jpg);
+  box-shadow: 0.5em 0.5em #a1ca897c;
+  border-radius: 50%;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 0.2em;
+}
+
+label,
+span {
+  color: #021bff;
+  font-family: cursive;
+  margin: 0.5em;
+}
+
+.infoGamer {
+  display: none;
+}
